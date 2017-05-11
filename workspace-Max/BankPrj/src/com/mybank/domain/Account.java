@@ -13,10 +13,10 @@ package com.mybank.domain;
  * @author student
  */
 public class Account {
-    private double balance;
+    protected double balance;
     
     /** Creates a new instance of Account */
-    public Account(double initBalance) {
+    protected Account(double initBalance) {
         balance = initBalance;
     }
     
